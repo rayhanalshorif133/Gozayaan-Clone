@@ -126,6 +126,7 @@ const handleHotDealsOwlCarousel = () => {
 
 const handlePromotionSliderOwlCarousel = () => {
     const showItems = $(".promotion_slider").data("show-items");
+    const minus_items = showItems > 2 ? 2 : 1;
     $(".promotion_slider").owlCarousel({
         loop: true,
         margin: 10,
@@ -136,10 +137,70 @@ const handlePromotionSliderOwlCarousel = () => {
         autoplayHoverPause: true,
         responsive: {
             0: {
-                items: showItems - 2,
+                items: showItems - minus_items,
             },
             600: {
-                items: showItems - 1,
+                items: showItems - minus_items,
+            },
+            1000: {
+                items: showItems,
+            },
+        },
+
+    });
+
+    $(".owl-carousel .owl-nav button.owl-prev").html('<i class="fas fa-chevron-left"></i>');
+    $(".owl-carousel .owl-nav button.owl-next").html('<i class="fas fa-chevron-right"></i>');
+};
+
+
+const handlePopularDestinationsSliderOwlCarousel = () => {
+    const showItems = $(".popular_destinations_slider").data("show-items");
+    const minus_items = showItems > 2 ? 2 : 1;
+    $(".popular_destinations_slider").owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        dots: false,
+        autoplay: true,
+        autoplayTimeout: 3000,
+        autoplayHoverPause: true,
+        responsive: {
+            0: {
+                items: showItems - minus_items,
+            },
+            600: {
+                items: showItems - minus_items,
+            },
+            1000: {
+                items: showItems,
+            },
+        },
+
+    });
+
+    $(".owl-carousel .owl-nav button.owl-prev").html('<i class="fas fa-chevron-left"></i>');
+    $(".owl-carousel .owl-nav button.owl-next").html('<i class="fas fa-chevron-right"></i>');
+};
+
+
+const handlePopularToursSliderOwlCarousel = () => {
+    const showItems = $(".popular_tours_slider").data("show-items");
+    const minus_items = showItems > 2 ? 2 : 1;
+    $(".popular_tours_slider").owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        dots: false,
+        autoplay: true,
+        autoplayTimeout: 3000,
+        autoplayHoverPause: true,
+        responsive: {
+            0: {
+                items: showItems - minus_items,
+            },
+            600: {
+                items: showItems - minus_items,
             },
             1000: {
                 items: showItems,
@@ -166,6 +227,8 @@ const app = () => {
 
         handleHotDealsOwlCarousel();
         handlePromotionSliderOwlCarousel();
+        handlePopularDestinationsSliderOwlCarousel();
+        handlePopularToursSliderOwlCarousel();
     });
 }
 
