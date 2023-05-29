@@ -1,0 +1,15 @@
+.curser-pointer {
+    cursor: pointer;
+}
+
+i {
+    cursor: pointer;
+}
+
+svg {
+    overflow: hidden;
+}
+
+img, svg {
+    vertical-align: middle;
+}

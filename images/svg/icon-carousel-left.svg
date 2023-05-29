@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>Arrow Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M9.21906667,12.6666667 C9.0244,12.6666667 8.83106667,12.582 8.69906667,12.418 L5.4804,8.418 C5.28173333,8.17066667 5.2844,7.81733333 5.48773333,7.57333333 L8.82106667,3.57333333 C9.0564,3.29066667 9.47706667,3.25266667 9.7604,3.488 C10.0430667,3.72333333 10.0810667,4.144 9.84506667,4.42666667 L6.86173333,8.00733333 L9.7384,11.582 C9.96906667,11.8686667 9.92373333,12.2886667 9.6364,12.5193333 C9.51373333,12.6186667 9.36573333,12.6666667 9.21906667,12.6666667" id="path-1"></path>
+    </defs>
+    <g id="Hotel_User_part_UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="properties_details_02" transform="translate(-183.000000, -356.000000)">
+            <g id="Header_top" transform="translate(165.000000, 126.000000)">
+                <g id="Group-3-Copy" transform="translate(18.000000, 230.000000)">
+                    <g id="Arrow-Copy">
+                        <circle id="Oval" fill="#FFFFFF" cx="12" cy="12" r="12"></circle>
+                        <g id="arrow-ios-left" transform="translate(4.000000, 4.000000)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="🎨-Icon-Сolor" fill="#056998" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

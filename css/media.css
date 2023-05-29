@@ -1,0 +1,14 @@
+@media (min-width: 1200px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width: 768px) {
+    .col-md-12 {
+        flex: 0 0 auto;
+        width: 87% !important;
+        justify-content: center !important;
+        margin: auto !important;
+    }
+}
