@@ -218,7 +218,7 @@ const handlePopularToursSliderOwlCarousel = () => {
 // app
 const app = () => {
     navBarHandler();
-    //randomDemoLocationInput();
+    randomDemoLocationInput();
 
     $(function () {
         // Hit backend is here
