@@ -49,7 +49,7 @@ const randomDemoLocationInput = () => {
 
     var html = `
     <div class="location">
-       <div class="icon"> <img src="/images/svg/map-marker-grey.svg">
+       <div class="icon"> <img src="./images/svg/map-marker-grey.svg">
         </div>
         <div class="name"
             data-name="Cox's Bazar">
@@ -61,7 +61,7 @@ const randomDemoLocationInput = () => {
     for (let i = 0; i < locations.length; i++) {
         html += `
         <div class="location">
-              <div class="icon"> <img src="/images/svg/map-marker-grey.svg">
+              <div class="icon"> <img src="./images/svg/map-marker-grey.svg">
                 </div>
                 <div class="name"
                     data-name="${locations[i]}">
