@@ -191,6 +191,11 @@
 }
 
 /* 1201px and more —  Extra large screens, TV */
-@media screen and (min-width: 1201px) {}
+@media screen and (min-width: 1201px) {
+    .searchbar-wrapper {
+        margin-top: 13%;
+    }
+
+}
 
 /* media tag devices:end */
