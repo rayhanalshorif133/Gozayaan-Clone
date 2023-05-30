@@ -56,6 +56,14 @@
     #searchbar {
         width: 95%;
     }
+
+    .tour .bar div.box .label {
+        font-size: 10px;
+    }
+
+    .tour .bar div.box .value {
+        font-size: 16px;
+    }
 }
 
 /*  320px — 480px: Mobile devices */
@@ -97,6 +105,14 @@
 
     #searchbar {
         width: 95%;
+    }
+
+    .tour .bar div.box .label {
+        font-size: 12px;
+    }
+
+    .tour .bar div.box .value {
+        font-size: 18px;
     }
 
 }
@@ -143,7 +159,13 @@
         width: 90%;
     }
 
+    .tour .bar div.box .label {
+        font-size: 12px;
+    }
 
+    .tour .bar div.box .value {
+        font-size: 20px;
+    }
 }
 
 /* 769px — 1024px: Small screens, laptops */

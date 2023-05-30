@@ -1,3 +1,6 @@
+// variable declaration
+var is_suggestion = false;
+
 // dependencies
 const navBarHandler = () => {
     window.addEventListener("scroll", () => {
@@ -77,6 +80,8 @@ const randomDemoLocationInput = () => {
 const tourLocationHandler = () => {
     $(".location_box").click(function () {
         $(".location-suggestion").removeClass("d-none");
+        is_suggestion = true;
+        $("#searchLocation").focus();
     });
 
     $("#searchLocation").keyup(function () {
@@ -87,9 +92,6 @@ const tourLocationHandler = () => {
         });
     });
 
-    $("#searchLocation").focusout(function () {
-        $(".location-suggestion").addClass("d-none");
-    });
 
 
     $(document).on('click', ".location-list .location", function (e) {
@@ -97,6 +99,13 @@ const tourLocationHandler = () => {
         $(".location_box").find(".value").text(name);
         $(".location-suggestion").addClass("d-none");
         // hit backend using axios
+    });
+
+    $(document).on('click', function (e) {
+        if (!$(e.target).closest('.location_box').length) {
+            $(".location-suggestion").addClass("d-none");
+            is_suggestion = false;
+        }
     });
 }
 
@@ -229,8 +238,6 @@ const app = () => {
     $(function () {
         // Hit backend is here
         tourLocationHandler();
-
-
         handleHotDealsOwlCarousel();
         handlePromotionSliderOwlCarousel();
         handlePopularDestinationsSliderOwlCarousel();
