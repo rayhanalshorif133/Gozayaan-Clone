@@ -30,6 +30,10 @@ body {
     min-height: 650px;
 }
 
+#brand-header .navbar .cart_icon {
+    margin-top: 1rem;
+}
+
 .header_middle {
     font-family: Avenir Next, Helvetica, Arial, serif;
     font-weight: 600;
