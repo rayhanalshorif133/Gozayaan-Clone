@@ -17,6 +17,14 @@
 /* media tag devices:start */
 /* small device */
 @media screen and (max-width: 320px) {
+
+    .logo {
+        margin: 10px;
+        width: 90px;
+        height: 33px;
+    }
+
+
     .header_middle .row {
         display: none;
     }
@@ -44,6 +52,13 @@
 
 /*  320px — 480px: Mobile devices */
 @media screen and (min-width: 320px) and (max-width: 480px) {
+
+    .logo {
+        margin: 10px;
+        width: 105px;
+        height: 30px;
+    }
+
     #brand-header .col-md-12 {
         width: 100%;
     }
@@ -72,6 +87,11 @@
 /* 481px — 768px: iPads, Tablets */
 @media screen and (min-width: 481px) and (max-width: 768px) {
 
+    .logo {
+        width: 105px;
+        height: 30px;
+    }
+
     .header_middle .row {
         display: none;
     }
@@ -99,6 +119,10 @@
 
 /* 769px — 1024px: Small screens, laptops */
 @media screen and (min-width: 769px) and (max-width: 1024px) {
+    .logo {
+        width: 110px;
+        height: 35px;
+    }
 
     #brand-header .col-md-4 {
         width: 33%;
@@ -124,6 +148,8 @@
 }
 
 @media (max-width: 991px) {
+
+
     .header_middle .row {
         display: none;
     }
