@@ -168,6 +168,17 @@
     }
 }
 
+@media screen and (max-width: 570px) {
+    .custom-tour-wrapper {
+        width: 95%;
+        margin: auto;
+    }
+
+    .custom-tour-wrapper .d-flex {
+        display: block !important;
+    }
+}
+
 /* 769px — 1024px: Small screens, laptops */
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .logo {
@@ -213,6 +224,14 @@
         display: none;
     }
 
+    #searchbar .search-btn-container button.search-btn {
+        padding: 10px 40px;
+        font-size: 16px;
+    }
+
+    #header-bottom {
+        display: block !important;
+    }
 }
 
 /* 1025px — 1200px: Desktops, large screens */
