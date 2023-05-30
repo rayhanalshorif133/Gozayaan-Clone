@@ -86,6 +86,12 @@ const tourLocationHandler = () => {
             $(this).parent().toggle(name.indexOf(value) > -1);
         });
     });
+
+    $("#searchLocation").focusout(function () {
+        $(".location-suggestion").addClass("d-none");
+    });
+
+
     $(document).on('click', ".location-list .location", function (e) {
         var name = $(this).find(".name").data("name");
         $(".location_box").find(".value").text(name);

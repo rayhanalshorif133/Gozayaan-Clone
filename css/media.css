@@ -52,6 +52,10 @@
     .searchbar-wrapper .search-type {
         padding: 0px 7px
     }
+
+    #searchbar {
+        width: 95%;
+    }
 }
 
 /*  320px — 480px: Mobile devices */
@@ -90,6 +94,11 @@
     .searchbar-wrapper .search-type {
         padding: 7px 25px;
     }
+
+    #searchbar {
+        width: 95%;
+    }
+
 }
 
 /* 481px — 768px: iPads, Tablets */
@@ -129,6 +138,12 @@
     .searchbar-wrapper .search-type {
         padding: 10px 35px
     }
+
+    #searchbar {
+        width: 90%;
+    }
+
+
 }
 
 /* 769px — 1024px: Small screens, laptops */
@@ -164,12 +179,14 @@
         padding: 7px 25px
     }
 
+    #searchbar {
+        width: 80%;
+    }
+
 
 }
 
 @media (max-width: 991px) {
-
-
     .header_middle .row {
         display: none;
     }
@@ -188,6 +205,10 @@
 
     .searchbar-wrapper .search-type {
         padding: 10px 35px
+    }
+
+    #searchbar {
+        width: 70%;
     }
 }
 
