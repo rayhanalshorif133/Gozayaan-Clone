@@ -13,3 +13,142 @@
     }
 
 }
+
+/* media tag devices:start */
+/* small device */
+@media screen and (max-width: 320px) {
+    .header_middle .row {
+        display: none;
+    }
+
+    .navbar .row .mt-3 {
+        margin-top: 0.74rem;
+    }
+
+    #brand-header .col-md-12 {
+        width: 100%;
+    }
+
+    #brand-header .col-md-4 {
+        width: 33%;
+    }
+
+    .searchbar-wrapper {
+        margin-top: 70%;
+    }
+
+    .searchbar-wrapper .search-type {
+        padding: 0px 7px
+    }
+}
+
+/*  320px — 480px: Mobile devices */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    #brand-header .col-md-12 {
+        width: 100%;
+    }
+
+    .header_middle .row {
+        display: none;
+    }
+
+    .navbar .row .mt-3 {
+        margin-top: 0.74rem;
+    }
+
+    #brand-header .col-md-4 {
+        width: 33%;
+    }
+
+    .searchbar-wrapper {
+        margin-top: 40%;
+    }
+
+    .searchbar-wrapper .search-type {
+        padding: 7px 25px;
+    }
+}
+
+/* 481px — 768px: iPads, Tablets */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
+    .header_middle .row {
+        display: none;
+    }
+
+    .navbar .row .mt-3 {
+        margin-top: 0.74rem;
+    }
+
+    #brand-header .col-md-12 {
+        width: 100%;
+    }
+
+    #brand-header .col-md-4 {
+        width: 33%;
+    }
+
+    .searchbar-wrapper {
+        margin-top: 30%;
+    }
+
+    .searchbar-wrapper .search-type {
+        padding: 10px 35px
+    }
+}
+
+/* 769px — 1024px: Small screens, laptops */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+    #brand-header .col-md-4 {
+        width: 33%;
+    }
+
+    .header_middle .row {
+        display: none;
+    }
+
+    .navbar .row .mt-3 {
+        margin-top: 0.74rem;
+    }
+
+    .searchbar-wrapper {
+        margin-top: 20%;
+    }
+
+    .searchbar-wrapper .search-type {
+        padding: 7px 25px
+    }
+
+
+}
+
+@media (max-width: 991px) {
+    .header_middle .row {
+        display: none;
+    }
+
+    .navbar .row .mt-3 {
+        margin-top: 0.74rem;
+    }
+}
+
+/* 1025px — 1200px: Desktops, large screens */
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 960px;
+    }
+
+    .searchbar-wrapper {
+        margin-top: 16%;
+    }
+
+    .searchbar-wrapper .search-type {
+        padding: 10px 35px
+    }
+}
+
+/* 1201px and more —  Extra large screens, TV */
+@media screen and (min-width: 1201px) {}
+
+/* media tag devices:end */
