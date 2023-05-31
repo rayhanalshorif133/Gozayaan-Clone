@@ -32,8 +32,9 @@
     </head>
     <body>
         <div class="home">
-            <section class="header">
-                <div class="container-fluid fixed-top" id="brand-header">
+            <section class="header_others">
+                <div class="container-fluid fixed-top bg-default shadow-sm"
+                    id="brand-header">
                     <div class="container">
                         <nav
                             class="navbar navbar-expand-lg navbar-light">
@@ -74,7 +75,7 @@
                                         </div>
                                         <div class="col-md-4 header_middle">
                                             <div
-                                                class="row justify-content-center d-none">
+                                                class="row justify-content-center">
                                                 <!-- <div class="col-md-4">
                                                     <a href="#" class="nav-link">
                                                         <img
@@ -120,205 +121,6 @@
                                 </div>
                             </div>
                         </nav>
-                    </div>
-                </div>
-                <div class="searchbar-wrapper">
-                    <div class="search-type">
-                        <ul class="nav nav-tabs" id="myTab" role="tablist">
-                            <!-- <li class="nav-item" role="presentation">
-                                <button class="nav-link active" id="flight-tab"
-                                    data-bs-toggle="tab"
-                                    data-bs-target="#flight"
-                                    type="button" role="tab"
-                                    aria-controls="flight"
-                                    aria-selected="true">
-                                    <img
-                                        src="./images/svg/flight.svg"
-                                        alt="Flight"
-                                        width="25" height="18">
-                                    <span>Flight</span>
-                                </button>
-                            </li> -->
-                            <!-- <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="hotel-tab"
-                                    data-bs-toggle="tab"
-                                    data-bs-target="#hotel"
-                                    type="button" role="tab"
-                                    aria-controls="hotel"
-                                    aria-selected="false">
-                                    <img
-                                        src="./images/svg/hotel.svg" alt="Hotel"
-                                        width="25" height="18">
-
-                                    <span>Hotel</span>
-                                </button>
-                            </li> -->
-                            <li class="nav-item" role="presentation">
-                                <button class="nav-link active" id="tour-tab"
-                                    data-bs-toggle="tab"
-                                    data-bs-target="#tour"
-                                    type="button" role="tab"
-                                    aria-controls="tour"
-                                    aria-selected="false">
-                                    <img
-                                        src="./images/svg/tour.svg" alt="Tour"
-                                        width="25" height="18">
-                                    <span>Tour</span>
-                                </button>
-                            </li>
-                        </ul>
-                    </div>
-                    <div id="searchbar" class="full searchbar-visible">
-                        <div class="tab-content bg-default" id="tab-content-1">
-                            <div class="tab-pane fade" id="flight"
-                                role="tabpanel" aria-labelledby="flight-tab">
-                                <div class="flight">
-                                    <!-- Flight Tab:start -->
-                                    <ul
-                                        class="nav nav-pills mb-3 flight-type-wrapper"
-                                        id="pills-tab"
-                                        role="tablist">
-                                        <li class="nav-item" role="presentation">
-                                            <label class="radio nav-link active"
-                                                id="one-way-tab"
-                                                data-bs-toggle="pill"
-                                                data-bs-target="#one-way"
-                                                type="button" role="tab"
-                                                aria-controls="one-way"
-                                                aria-selected="true">
-                                                <input type="radio"
-                                                    name="flight-type"
-                                                    value="One Way">
-                                                <span class="radio-btn"></span>
-                                                <span class="flight-type-text">One
-                                                    Way</span>
-                                            </label>
-                                        </li>
-                                        <li class="nav-item" role="presentation">
-
-                                            <label class="radio nav-link"
-                                                id="pills-profile-tab"
-                                                data-bs-toggle="pill"
-                                                data-bs-target="#pills-profile"
-                                                role="tab"
-                                                aria-controls="pills-profile"
-                                                aria-selected="false">
-                                                <input type="radio"
-                                                    name="flight-type"
-                                                    value="Multi City">
-                                                <span class="radio-btn"></span>
-                                                <span class="flight-type-text">
-                                                    Multi City
-                                                </span>
-                                            </label>
-                                        </li>
-                                        <li class="nav-item" role="presentation">
-                                            <label class="radio nav-link"
-                                                id="pills-contact-tab"
-                                                data-bs-toggle="pill"
-                                                data-bs-target="#pills-contact"
-                                                type="button" role="tab"
-                                                aria-controls="pills-contact"
-                                                aria-selected="false">
-                                                <input type="radio"
-                                                    name="flight-type"
-                                                    value="Round Way">
-                                                <span class="radio-btn"></span>
-                                                <span class="flight-type-text">
-                                                    Round Way
-                                                </span>
-                                            </label>
-                                        </li>
-                                    </ul>
-                                    <div class="tab-content"
-                                        id="pills-tabContent">
-                                        <div class="tab-pane fade show active"
-                                            id="one-way" role="tabpanel"
-                                            aria-labelledby="one-way-tab">
-                                            One Way Trip
-                                        </div>
-                                        <div class="tab-pane fade"
-                                            id="pills-profile" role="tabpanel"
-                                            aria-labelledby="pills-profile-tab">
-                                            Round Trip
-                                        </div>
-                                        <div class="tab-pane fade"
-                                            id="pills-contact" role="tabpanel"
-                                            aria-labelledby="pills-contact-tab">
-                                            Multi City
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!-- Flight Tab:end -->
-                            </div>
-                            <div class="tab-pane fade" id="hotel"
-                                role="tabpanel"
-                                aria-labelledby="hotel-tab">
-                                Hotel
-                            </div>
-                            <div class="tab-pane fade show active" id="tour"
-                                role="tabpanel"
-                                aria-labelledby="tour-tab">
-                                <div class="tour">
-                                    <div class="tour-search bar">
-                                        <div class="box location location_box">
-                                            <span class="label">Location/ Tour</span>
-                                            <div class="value">Cox's Bazar</div>
-                                            <span class="sub-value">&nbsp;</span>
-                                            <div id="locationSuggestion"
-                                                class="location-suggestion d-none">
-                                                <div class="input-wrapper">
-                                                    <span class="close"></span>
-                                                    <input type="text"
-                                                        id="searchLocation"
-                                                        autocomplete="off"
-                                                        placeholder="Type to search">
-                                                </div>
-                                                <div class="location-list">
-                                                    <div class="location">
-                                                        <div class="icon"> <img
-                                                                src="./images/svg/map-marker-grey.svg">
-                                                        </div>
-                                                        <div class="name"
-                                                            data-name="Cox's Bazar">
-                                                            Cox's Bazar
-                                                        </div>
-                                                    </div>
-                                                    <div class="location">
-                                                        <div class="icon"> <img
-                                                                src="./images/svg/map-marker-grey.svg">
-                                                        </div>
-                                                        <div class="name"
-                                                            data-name="Cox's Bazar">
-                                                            Cox's Bazar
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="search-btn-container">
-                            <button type="button" class="search-btn">
-                                Search
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <div class="custom-request">
-                    <div class="custom-tour-wrapper text-center">
-                        <div
-                            class="tour-request-bar brand d-flex align-items-center justify-content-between p-3">
-                            <p class="mb-sm-0 mb-1 customized_tour">
-                                Need a Customized Tour?
-                            </p>
-                            <button type="button" class="btn btn-secondary">
-                                Request Now
-                            </button>
-                        </div>
                     </div>
                 </div>
 
@@ -938,6 +740,6 @@
             src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
         <script src="assets/owlcarousel/owl.carousel.min.js"></script>
 
-        <script type="module" src="js/app.js"></script>
+        <script type="module" src="js/other.js"></script>
     </body>
 </html>
